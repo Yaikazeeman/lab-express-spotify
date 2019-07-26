@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+
+}
+
+.home-container {
+    background-image: url(https://static.pexels.com/photos/167605/pexels-photo-167605.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-container {
+    margin: 200px auto;
+    padding: 50px;
+    background-color: rgb(255,255,255,0.5);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 80px;
+
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form input {
+    height: 25px;
+    width: 400px;
+}
+
+.homepage-button {
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-button button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0;
+    color: white;
+    background-color: #ff6666;
+    border: 1px solid #ff6666;
+}
+
+.artists-button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #ff6666;
+    border: 1px solid #ff6666;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.flex-container {
+    width: 100vw;
+    display: flex;
+}
+
+.artist-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 30px;
+    background-color: gray;
+}
+
+.artist-display img {
+    width: 100%;
+}
+
+.artist-display h3 {
+    text-align: center;
+    color: white;
+}
+
+.artist-display a {
+    margin: 10px auto;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.albums-display {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: lightgray;
+    flex-direction: column;
+}
+
+.albums-display h3 {
+    text-align: center;
+    color: white;
+}
+
+.albums-display img {
+    width: 100%;
+}
+
+.albums-display a {
+    margin: 10px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+
+nav h2 {
+    margin: 30px;
+}
+
+.tracksDiv{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
